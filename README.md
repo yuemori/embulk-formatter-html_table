@@ -1,6 +1,6 @@
 # Html Table formatter plugin for Embulk
 
-TODO: Write short description here and embulk-formatter-html_table.gemspec file.
+This plugin is formatter to html_table for Embulk
 
 ## Overview
 
