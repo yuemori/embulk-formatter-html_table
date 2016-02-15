@@ -20,7 +20,7 @@ module Embulk
         task = {
           'encoding' => config.param('encoding', :string, default: 'UTF-8'),
           'newline' => config.param('newline', :string, default: 'LF'),
-          'to_br' => config.param('to_br', :boolean, default: true),
+          'to_br' => config.param('to_br', :bool, default: true),
           'timestamp_format' => config.param('timestamp_format', :string, default: '%Y-%m-%d %H-%M-%S'),
         }
 
